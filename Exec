@@ -1,9 +1,9 @@
-local function script()
+local function GameId()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptsGAG/ZapHub/refs/heads/main/Exec"))()
 end
-local function ()
+local function ZapHub()
     loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
 end
 
-task.spawn(grinding)
-task.spawn(farm)
+task.spawn(GameId)
+task.spawn(ZapHub)
